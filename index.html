@@ -204,8 +204,8 @@ const skip=document.querySelector('.skip');
 let play=false;
 let newWords= "";
 let randWords="";
-let sWords = ['dobby','dumbledore','tomriddle','hagrid','slytherin','voldemort','siriusblack','spiders',
-'fang','ginny','keeper','scotland'];
+let sWords = ['2008','mjolnir','vibranium','tchalla','chitauri','storkclub','gamora','harley',
+'hydra','korg','malekith','morag'];
 
 const createNewWords = function(){
     let randNum = Math.floor(Math.random() * sWords.length);
@@ -296,8 +296,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let a = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER? ');
 
-                    show.innerHTML='dobby';
-                    guess.value="dobby";
+                    show.innerHTML='2008';
+                    guess.value="2008";
 
                 }
                 else if(newWords===sWords[1]){
@@ -307,8 +307,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let b = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER? ');
 
-                    show.innerHTML='dumbledore';
-                    guess.value="dumbledore";
+                    show.innerHTML='mjolnir';
+                    guess.value="mjolnir";
 
                 }
 
@@ -318,8 +318,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let c = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER?');
 
-                    show.innerHTML='tomriddle';
-                    guess.value="tomriddle";
+                    show.innerHTML='vibranium';
+                    guess.value="vibranium";
 
                 }
 
@@ -330,8 +330,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let d = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER?');
 
-                    show.innerHTML='hagrid';
-                    guess.value="hagrid";
+                    show.innerHTML='tchalla';
+                    guess.value="tchalla";
 
                 }
 
@@ -342,8 +342,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let e = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER?');
 
-                    show.innerHTML='slytherin';
-                    guess.value="slytherin";
+                    show.innerHTML='chitauri';
+                    guess.value="chitauri";
 
                 }
 
@@ -354,8 +354,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let f = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER?');
 
-                    show.innerHTML='voldemort';
-                    guess.value="voldemort";
+                    show.innerHTML='storkclub';
+                    guess.value="storkclub";
 
                 }
 
@@ -366,8 +366,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let g = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER?');
 
-                    show.innerHTML='siriusblack';
-                    guess.value="siriusblack";
+                    show.innerHTML='gamora';
+                    guess.value="gamora";
 
                 }
 
@@ -378,8 +378,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let h = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER?');
                     if(a===true){
-                    show.innerHTML='spiders';
-                    guess.value="spiders";
+                    show.innerHTML='harley';
+                    guess.value="harley";
                     }
                 }
 
@@ -390,8 +390,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let i = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER? ');
 
-                    show.innerHTML='fang';
-                    guess.value="fang";
+                    show.innerHTML='hydra';
+                    guess.value="hydra";
 
                 }
 
@@ -401,8 +401,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let j = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER? ');
 
-                    show.innerHTML='ginny';
-                    guess.value="ginny";
+                    show.innerHTML='korg';
+                    guess.value="korg";
 
                 }
 
@@ -412,8 +412,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let k = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER?');
 
-                    show.innerHTML='keeper';
-                    guess.value="keeper";
+                    show.innerHTML='malekith';
+                    guess.value="malekith";
 
                 }
 
@@ -423,8 +423,8 @@ btn.addEventListener("click",function(){
                     // show.innerHTML='STUCK ? SHOW ANSWER';
                     // let j = confirm('ARE YOU SURE YOU WANT TO SEE THE ANSWER? ');
 
-                    show.innerHTML='scotland';
-                    guess.value="scotland";
+                    show.innerHTML='morag';
+                    guess.value="morag";
 
                 }
             })
@@ -437,29 +437,29 @@ btn.addEventListener("click",function(){
 function hintQuestions(){
     if(newWords===sWords[0]){
             hint.innerHTML='HINT:Who has been stealing Harry’s letters from Ron and Hermione at the beginning of ‘Harry Potter and the Chamber of Secrets’? ';
-            console.log("dobby");
+            console.log("2008");
 
         }
         else if(newWords===sWords[1]){
             hint.innerHTML='HINT: Who has given Harry Potter the Invisibility cloak?';
-            console.log("dumbledore");
+            console.log("mjolnir");
         }
 
         else if(newWords===sWords[2]){
             hint.innerHTML='HINT: The actual name of Lord Voldemort is ';
-            console.log("tomriddle");
+            console.log("vibranium");
         }
 
 
         else if(newWords===sWords[3]){
             hint.innerHTML='HINT: Who brought Harry to Hogwarts when he was matured to go there?';
-            console.log("hagrid");
+            console.log("tchalla");
         }
 
 
         else if(newWords===sWords[4]){
             hint.innerHTML='HINT:In his first quidditch match, Harry’s team was against which House';
-            console.log("slytherin");
+            console.log("chitauri");
         }
 
 
@@ -468,30 +468,30 @@ function hintQuestions(){
 
         else if(newWords===sWords[5]){
             hint.innerHTML='HINT: Man behind the scar of harry potter';
-            console.log("voldemort");
+            console.log("storkclub");
         }
 
         else if(newWords===sWords[6]){
             hint.innerHTML="HINT: Who is Harry Potter's godfather?";
-            console.log("siriusblack");
+            console.log("gamora");
         }
 
         else if(newWords===sWords[7]){
             hint.innerHTML='HINT: Which type of insect is Ronald Weasley most afraid of?';
-            console.log("spiders");
+            console.log("harley");
         }
 
 
         else if(newWords===sWords[8]){
             hint.innerHTML='HINT: What is the name of Hagrid’s big dog?';
-            console.log("fang");
+            console.log("hydra");
         }
 
 
 
         else if(newWords===sWords[9]){
             hint.innerHTML="HINT: What is the first name of Harry Potter's wife?";
-            console.log("ginny");
+            console.log("korg");
         }
 
 
@@ -500,12 +500,12 @@ function hintQuestions(){
 
         else if(newWords===sWords[10]){
             hint.innerHTML='HINT:What do you call the person who defends the goal post in Quidditch?';
-            console.log("keeper");
+            console.log("malekith");
         }
 
         else if(newWords===sWords[11]){
             hint.innerHTML='HINT:What part of the United Kingdom is Hogwarts School located in?';
-            console.log("scotland");
+            console.log("morag");
         }
 
 }
