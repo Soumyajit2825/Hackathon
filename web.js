@@ -20,6 +20,9 @@ let sWords = [
   "cork",
   "malekith",
   "morag",
+  "yellowjacket",
+  "nigeria",
+  "shuri"
 ];
 const createNewWords = function () {
   let randNum = Math.floor(Math.random() * sWords.length);
@@ -164,6 +167,18 @@ btn.addEventListener("click", function () {
           show.innerHTML = "morag";
           guess.value = "morag";
         }
+        else if (newWords === sWords[12]) {
+          show.innerHTML = "yellowjacket";
+          guess.value = "yellowjacket";
+        }
+        else if (newWords === sWords[13]) {
+          show.innerHTML = "nigeria";
+          guess.value = "nigeria";
+        }
+        else if (newWords === sWords[14]) {
+          show.innerHTML = "shuri";
+          guess.value = "shuri";
+        }
       });
     }
   }
@@ -213,5 +228,17 @@ function hintQuestions() {
     hint.innerHTML =
       "HINT:. Which planet does Peter Quill retrieve the Orb containing the Power Stone?";
     console.log("morag");
+  } else if (newWords === sWords[12]) {
+    hint.innerHTML =
+      "HINT:. In the Ant-Man, Darren Cross developed a shrinking suit similar to the one worn by Scott Lang. What was it called?";
+    console.log("yellowjacket");
+  }else if (newWords === sWords[13]) {
+    hint.innerHTML =
+      "HINT:. In Black Panther, what African country is Nakia operating in as a spy before T’Challa arrived and brought her back to Wakanda?";
+    console.log("nigeria");
+  }else if (newWords === sWords[14]) {
+    hint.innerHTML =
+      "HINT:. Who is Black Panthers sister?";
+    console.log("shuri");
   }
 }
