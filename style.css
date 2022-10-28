@@ -41,7 +41,7 @@ body {
   text-decoration: underline;
 }
 .section2 {
-  margin: 70px auto;
+  margin: 120px auto;
   /*width:100%;*/
   /*height:350px;*/
   /*background:#626567 ;*/
@@ -82,6 +82,9 @@ body {
   background-color: grey;
   color: white;
 }
+.btn:hover{
+  background-color:#FFFACD ;
+}
 .text {
   border: none;
   border-radius: 100px;
@@ -100,6 +103,10 @@ p {
   background-color: black;
   color: white;
 }
+.show:hover{
+  background-color: #f1f1f1;
+  color: black;
+}
 .hint {
   font-family: "David Libre", serif;
   font-size: 20px;
@@ -113,6 +120,10 @@ p {
   transition: 0.2s linear;
   background-color: black;
   color: white;
+}
+.skip:hover{
+  background-color: #f1f1f1;
+  color: black;
 }
 /**/
 .bg-image{
