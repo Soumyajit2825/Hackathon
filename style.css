@@ -130,8 +130,8 @@ p {
   /* The image used */
   background-image: url("/Image/wp8998458.webp");
   /* Add the blur effect */
-  filter: blur(4px);
-  -webkit-filter: blur(2px);
+  filter: blur(1px);
+  -webkit-filter: blur(0px);
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
