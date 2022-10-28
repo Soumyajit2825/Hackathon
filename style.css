@@ -138,5 +138,7 @@ div h2{
     display:flex;
     text-align: center;
     justify-content:center;
-    font-family:'Times New Roman', Times, serif;
+    /* font-family:'Times New Roman', Times, serif; */
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
 }
