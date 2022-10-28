@@ -1,26 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=David+Libre&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=David+Libre&display=swap");
-
 /*@import url('https://fonts.googleapis.com/css2?family=Caveat&family=David+Libre&display=swap');*/
-
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
 }
-
 body {
   background-image: url("bgimg.jpg");
-
   background-size: cover;
-
   background-attachment: fixed;
-
   height: 100vh;
-
   position: relative;
 }
 
@@ -34,14 +24,8 @@ body {
 
         }*/
 
-nav {
-  width: 100%;
-
-  /*background-color:white;*/
-}
-
 .containers {
-  /*margin:0 auto;*/
+  /* margin:0 auto; */
 
   /*background-image:url("https://1.bp.blogspot.com/-UAaZ8-94CVo/UQW4ioAlzSI/AAAAAAAAAuk/Y0jz2zydXhE/s1600/Harry_Potter_logo.jpg");*/
 
@@ -55,13 +39,13 @@ nav {
 
             background-position:center top;
 
-            background-repeat:no-repeat;
+            background-repeat:no-repeat;*/
 
-            display:flex;
+    display:flex;
 
-            justify-content:center;*/
+    justify-content:center;
 
-  text-align: center;
+    text-align: center;
 }
 
 .heading {
@@ -95,7 +79,7 @@ nav {
 
   border: 2px solid black;
 
-  box-shadow: 2px 6px 10px 0;
+  box-shadow: 2px 5px 5px 0;
 
   display: flex;
 
@@ -117,7 +101,7 @@ nav {
 
   position: absolute;
 
-  top: 50%;
+  top: 30%;
 
   left: 50%;
 
@@ -125,13 +109,13 @@ nav {
 
   z-index: 2;
 
-  width: 50%;
+  width: 53%;
 
-  padding: 20px;
+  padding: 50px;
 
   text-align: center;
 
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .box {
